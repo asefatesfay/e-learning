@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empower Young Minds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="navigation">
+    <div class="navigation__logo">
+      <img src="images/logo.png" alt="Logo" />
+    </div>
+    <div class="navigation__links">
+      <a href="#" class="navigation__link">Home</a>
+      <a href="#" class="navigation__link">About Us</a>
+      <a href="#" class="navigation__link">Contact Us</a>
+      <a href="#" class="navigation__link">Blog</a>
+    </div>
+  </nav>
+  <header class="hero">
+    <h1 class="hero__title">
+      EMPOWER YOUNG MINDS
+    </h1>
+    <p class="hero__description">Discover a world of learning possibilities with our
+      <span id="hero__highlight">innovative</span>
+      educational platform.
+    </p>
+  </header>
+  <section class="feature">
+    <div class="feature__container">
+      <div class="feature__item">
+        <h2 class="feature__title feature__title--selected">
+          Empower Student Learning
+        </h2>
+        <p class="feature__description">
+          Our platform enhances student engagement by providing interactive learning tools.
+          Experience a seamless integration of technology and education that supports diverse learning styles.
+        </p>
+      </div>
+      <div class="feature__item">
+        <h2 class="feature__title">
+          Streamlined Communication Tools
+        </h2>
+        <p class="feature__description">
+          Stay connected with students and parents through our easy-to-use communication features.
+          Foster collaboration and transparency within your educational community.
+        </p>
+      </div>
+      <div class="feature__item">
+        <h2 class="feature__title">
+          Customizable Learning Experience
+        </h2>
+        <p class="feature__description">
+          Tailor your curriculum to meet the unique needs of your students.
+          Our flexible platform allows you to create personalized learning experiences that promote student success.
+        </p>
+      </div>
+    </div>
+    <div class="feature__image--container">
+      <img src="images/features.jpg" class="feature__image" alt="Feature Image" />
+    </div>
+  </section>
+  <section class="cta">
+    <h3 class="cta__title">
+      Learn More About Us by Contacting Us
+    </h3>
+    <p class="cta__description">
+      Contact us today to learn more about our platform and how it can benefit your educational institution.
+    </p>
+    <button class="cta__button cta__button--primary">
+      Learn More
+    </button>
+  </section>
+  <section class="video">
+    <h3 class="video__title">
+      Grow Your Child's Future
+    </h3>
+    <p class="video__description">
+      Watch our videos to learn more about how our platform can empower your child's learning experience.
+    </p>
+    <div class="video__controls">
+      <button class="video__button video__button--primary">
+        <i class="fas fa-book"></i> Learn More
+      </button>
+      <button class="video__button video__button--secondary">
+        <i class="fas fa-play-circle"></i> Watch Video
+      </button>
+    </div>
+    <div class="video__container">
+    </div>
+  </section>
+  <section class="programs">
+    <h2>Explore Our State of the Art Facilities and Enriching Learning Experience</h2>
+    <div class="programs__cards">
+      <div class="programs__card">
+        <img class="programs__card--image" src="images/program1.jpg" alt="Program 1" />
+        <h3 class="programs__card--title">
+          Engaging Extracurricular Activities for Holistic Student Development
+        </h3>
+        <p class="programs__card--description">
+          Our school offers modern facilities designed to enhance learning experience.
+        </p>
+        <button class="programs__card--button">
+          Learn More
+        </button>
+      </div>
+      <div class="programs__card">
+        <img class="programs__card--image" src="images/program2.jpg" alt="Program 2" />
+        <h3 class="programs__card--title">
+          Dedicated Staff Committed to Student Success and Growth
+        </h3>
+        <p class="programs__card--description">
+          Our experienced educators are passionate about nurturing each student's potential.
+        </p>
+        <button class="programs__card--button">
+          Learn More
+        </button>
+      </div>
+      <div class="programs__card">
+        <img class="programs__card--image" src="images/program3.jpg" alt="Program 3" />
+        <h3 class="programs__card--title">
+          Diverse Academic Programs Tailored to Student Interests and Goals
+        </h3>
+        <p class="programs__card--description">
+          We provide a wide rand of academic programs to cater to every student.
+        </p>
+        <button class="programs__card--button">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="element">
+    <div class="element__left">
+      <div class="element__placeholder">
+        <img src="images/formimage.jpg" alt="Form Image" class="element__image" />
+      </div>
+    </div>
+    <div class="element__right">
+      <h2>Sign Up Today Now!</h2>
+      <p class="element__subtitle">
+        Fill out the form below to get started with our platform and get updates on our latest features.
+      </p>
+      <form class="element__form">
+        <h3>Your Interests:</h3>
+        <ul class="element__list">
+          <li class="element__list--item">
+            Web Development
+          </li>
+          <li class="element__list--item">
+            UI UX Design
+          </li>
+          <li class="element__list--item">
+            AI/Machine Learning
+          </li>
+        </ul>
+        <div class="element__form--group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required placeholder="Enter username" />
+        </div>
+        <div class="element__form--group">
+          <label for="course">Select Course:</label>
+          <select id="course">
+            <option value="">Choose a course...</option>
+            <option value="web">Web Development</option>
+            <option value="ui">UI UX Design</option>
+            <option value="ai">AI/Machine Learning</option>
+          </select>
+        </div>
+        <button type="submit" class="element__button">Submit Form</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo">
+        <img src="images/logo.png" alt="Logo" class="footer__logo" />
+        <p class="footer__description">Empowering the next generation of learners with innovative educational
+          solutions.</p>
+        <button class="footer__button">Learn More</button>
+      </div>
+      <div class="footer__links">
+        <div class="footer__column">
+          <h4>Quick Links</h4>
+          <a href="#">About Us</a>
+          <a href="#">Features</a>
+          <a href="#">Programs</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="footer__column">
+          <h4>Resources</h4>
+          <a href="#">Help Center</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer__column">
+          <h4>Connect with us</h4>
+          <div class="footer__social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <p>&copy; 2024 Empower Young Minds. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
